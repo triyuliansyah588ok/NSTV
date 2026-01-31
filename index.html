@@ -6,35 +6,29 @@
     <title>NS TV - Visionary</title>
     <style>
         body { background: #000; color: #fff; font-family: sans-serif; text-align: center; padding: 20px; }
-        .header { border-bottom: 2px solid #ff004c; padding-bottom: 15px; margin-bottom: 20px; }
-        .logo-ns { width: 150px; border-radius: 10px; box-shadow: 0 0 20px #ff004c; }
-        .player-box { 
+        .logo-ns { width: 150px; border-radius: 10px; box-shadow: 0 0 20px #ff004c; margin-bottom: 20px; }
+        .player-placeholder { 
             width: 100%; max-width: 640px; aspect-ratio: 16/9; 
             background: #1a1a1a; margin: 20px auto; border: 2px solid #ff004c;
             display: flex; align-items: center; justify-content: center; border-radius: 15px;
-            box-shadow: inset 0 0 10px #ff004c;
         }
-        .back-btn { 
-            display: inline-block; margin-top: 30px; padding: 15px 30px; 
-            color: #ff004c; border: 2px solid #ff004c; text-decoration: none; 
-            border-radius: 12px; font-weight: bold; text-transform: uppercase;
+        .yt-btn { 
+            background: #ff0000; color: white; padding: 12px 25px; 
+            text-decoration: none; border-radius: 10px; font-weight: bold; 
+            display: inline-block; box-shadow: 0 0 15px rgba(255,0,0,0.5); 
         }
+        .back-btn { display: inline-block; margin-top: 30px; color: #ff004c; text-decoration: none; font-weight: bold; border: 1px solid #ff004c; padding: 10px 20px; border-radius: 10px; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="logons.png" class="logo-ns" onerror="this.src='https://via.placeholder.com/150x80?text=NS+TV';">
+    <img src="logons.png" class="logo-ns" onerror="this.src='https://via.placeholder.com/150?text=NS+TV';">
+    <h2>LIVE STREAMING NS TV</h2>
+    <div class="player-placeholder">
+        <div>
+            <p style="margin-bottom: 15px;">📺 Tonton Siaran Langsung di:</p>
+            <a href="https://www.youtube.com/@NSTVChannel" target="_blank" class="yt-btn">BUKA YOUTUBE</a>
+        </div>
     </div>
-
-    <h1>LIVE STREAMING NS TV</h1>
-    
-    <div class="player-box">
-        <p>📺 Siaran NS TV sedang disiapkan...</p>
-    </div>
-
-    <p>Kontak: <a href="mailto:triyuliansyah588ok@gmail.com" style="color:#ff004c; text-decoration:none;">triyuliansyah588ok@gmail.com</a></p>
-
-    <img src="logo_nstv.png" class="logo-ns" onerror="this.src='https://via.placeholder.com/150x80?text=NS+TV';">
-    
+    <a href="https://triyuliansyah588ok.github.io/Visionary/" class="back-btn">⬅ KEMBALI KE MENU UTAMA</a>
 </body>
 </html>
